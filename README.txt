@@ -51,7 +51,6 @@ Visit the running application in your web browser:
     [http://127.0.0.1:5000](http://127.0.0.1:5000)
 
 
-
 Repository Structure
 /Sinukuan
 ├── app.py                      # Flask Application Entry, Menu Data (PRODUCTS), and API routes.
