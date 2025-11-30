@@ -29,10 +29,12 @@ Installations
 2. Navigate to the Project Directory:
     cd Sinukuan-pos
 3. Create and Activate a Virtual Environment (Recommended):
-    python3 -m venv venv
+    python -m venv venv
     source venv/bin/activate  # On Windows, use: venv\Scripts\activate
 4. Install Dependencies
     pip install Flask
+    set FLASK_APP=app.py
+    flask run
 
 Evironment Setup
 This project uses hardcoded data and does not require complex API keys.
